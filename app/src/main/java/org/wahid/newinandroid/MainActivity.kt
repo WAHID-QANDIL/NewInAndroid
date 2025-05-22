@@ -5,12 +5,14 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
+import org.wahid.newinandroid.nav3.AppNav3
 import org.wahid.newinandroid.ui.theme.NewInAndroidTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,9 +21,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             NewInAndroidTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
-
+                val remembercs = rememberCoroutineScope()
+                Scaffold(modifier = Modifier.fillMaxSize()) {
+                    val pd = it;
+                    AppNav3(modifier = Modifier.fillMaxSize())
                 }
             }
         }
