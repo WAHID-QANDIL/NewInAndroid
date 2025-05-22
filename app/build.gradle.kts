@@ -56,8 +56,6 @@ dependencies {
     implementation(libs.androidx.runtime)
     implementation(libs.androidx.runtime.saveable)
 
-    implementation(platform(libs.androidx.compose.bom.v20240100))
-
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
