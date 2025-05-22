@@ -10,6 +10,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.navigation3.runtime.NavEntry
+import androidx.navigation3.runtime.entry
+import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.ui.NavDisplay
 
 @Composable
@@ -22,26 +24,13 @@ fun AppNav3(modifier: Modifier) {
         backStack = backStack,
         modifier = modifier.fillMaxSize(),
         onBack = { backStack.removeLastOrNull() },
-        entryProvider = { key ->
-            when (key) {
-                is Home -> {
-                    NavEntry(key) {
-                        HomeScreen(modifier = modifier) {
-                            backStack.add(Details("Android is awesome"))
-                        }
-                    }
-                }
-                is Details -> {
-                    NavEntry(key) {
-                        DetailsScreen(modifier = modifier, text = key.name)
-                    }
-                }
-                else -> {
-                    NavEntry(key) {
-                    }
-                }
+        entryProvider = entryProvider{
+            entry<Home> {key->
+                HomeScreen { backStack.add(Details("Android is awesome")) }
             }
-
+            entry<Details> {key->
+                DetailsScreen(modifier = modifier, text = key.name)
+            }
         }
     )
 
