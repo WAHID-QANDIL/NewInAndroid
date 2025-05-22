@@ -21,7 +21,6 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             NewInAndroidTheme {
-                val remembercs = rememberCoroutineScope()
                 Scaffold(modifier = Modifier.fillMaxSize()) {
                     val pd = it;
                     AppNav3(modifier = Modifier.fillMaxSize())
