@@ -62,6 +62,10 @@ android {
         implementation(libs.androidx.navigation.compose)
         implementation(libs.androidx.lifecycle.viewmodel.navigation3)
 
+
+        //Media3
+        implementation(libs.androidx.media3.effect)
+
         testImplementation(libs.junit)
         androidTestImplementation(libs.androidx.junit)
         androidTestImplementation(libs.androidx.espresso.core)
