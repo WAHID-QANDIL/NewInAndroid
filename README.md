@@ -1,7 +1,10 @@
 # This repo is to implementing the new Android APIs
-<span style="color:red;>">Don't miss the chance to put your contributions implementing new Android APIs to make this repo a reference.</span>
+<p>
+  <span style="color:red;>">Don't miss the chance to put your contributions implementing new Android APIs to make this repo a reference.</span>
+</p>
+
   
-# $${\color{red} Don't\ miss\ the\ chance\ to\ put\ your\ contributions\ implementing\ new\ Android\ APIs\ to\ make\ this\ repo\ a\ reference\.}$$ <br>
+# $${\color{red} Don't\ miss\ the\ chance\ to\ put\ your\ contributions\ implementing\ new\ Android\ APIs\ to\ make\ this\ repo\ a\ reference\.}$$
 ![image](https://github.com/user-attachments/assets/d25c60ad-a2df-4659-99f1-a7ba8a74ed14)
 ![new-in-watch-faces-google-io-hero](https://github.com/user-attachments/assets/6f10209a-2419-41f5-a3e8-3d434102e73d)
 
