@@ -1,6 +1,6 @@
 # This repo is to implementing the new Android APIs
 <p>
-# $${\color{red} Don't\ miss\ the\ chance\ to\ put\ your\ contributions\ implementing\ new\ Android\ APIs\ to\ make\ this\ repo\ a\ reference\.}$$
+$${\color{red} Don't\ miss\ the\ chance\ to\ put\ your\ contributions\ implementing\ new\ Android\ APIs\ to\ make\ this\ repo\ a\ reference\.}$$
 
 </p>
 
