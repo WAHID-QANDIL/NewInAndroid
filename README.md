@@ -1,5 +1,5 @@
 # This repo is to implementing the new Android APIs
-<span style="color:orange;>">Don't\ miss\ the\ chance\ to\ put\ your\ contributions\ implementing\ new\ Android\ APIs\ to\ make\ this\ repo\ a\ reference\.</span>
+<span style="color:red;>">Don't miss the chance to put your contributions implementing new Android APIs to make this repo a reference.</span>
   
 # $${\color{red} Don't\ miss\ the\ chance\ to\ put\ your\ contributions\ implementing\ new\ Android\ APIs\ to\ make\ this\ repo\ a\ reference\.}$$
 ![image](https://github.com/user-attachments/assets/d25c60ad-a2df-4659-99f1-a7ba8a74ed14)
