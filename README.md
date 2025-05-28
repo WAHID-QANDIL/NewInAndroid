@@ -11,6 +11,8 @@ $${\color{red} Don't\ miss\ the\ chance\ to\ put\ your\ contributions\ implement
 
 ## Go to Navigation3
 [Navigation3](https://github.com/WAHID-QANDIL/NewInAndroid/tree/master/app/src/main/java/org/wahid/newinandroid/nav3)
+<p>This implementations for navigation3 liberary,</p>
+
 ## Go to Media3
 [Media3](https://github.com/WAHID-QANDIL/NewInAndroid/tree/master/app/src/main/java/org/wahid/newinandroid/media3)
 
